@@ -1,6 +1,6 @@
-# Paus
+# PAUS
 
-This App allows setting time pauses for the usage of Android phones/ devices.
+This App allows setting time PAUSes for the usage of Android phones/ devices.
 
 It is a fork of the App [Paus](https://paus.io)
 with all networking related features removed.
@@ -12,9 +12,9 @@ Open it with Android Studio and press the Run button.
 
 ### Screenshots
 
-![overview screen](./app/src/main/play/en-US/listing/phoneScreenshots/1.png)
+![overview screen](./app/src/main/play/en-US/listing/phoneScreenshots/1png
 
-![Paus rule screen](./app/src/main/play/en-US/listing/phoneScreenshots/2.png)
+![Paus rule screen](./app/src/main/play/en-US/listing/phoneScreenshots/2png
 
 ### Enabling the device owner permission
 
