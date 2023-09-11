@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Paus Copyright (C) 2023 Ryley Holmes
-    Copyright (C) 2023 Ryley Holmes
+    PAUS Copyright (C) 2023 Ryley Holmes
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -40,14 +39,12 @@
     <string name="about_version">Version %s</string>
 
     <string name="about_contact_title">Help ressources</string>
-    <string name="about_contact_mail">
-        https://Paus.io/en/#support
-        \nhttps://Paus.io/en/configsuggestions/
+    <string name="about_contact_mail">https://paus.io/support
     </string>
 
     <string name="about_source_title">Source code</string>
     <string name="about_source_text" translatable="false">
-        <a href="https://codeberg.org/Paus/paus-android">https://codeberg.org/Paus/paus-android</a>
+        <a href="https://github.com/binary42420/Paus">https://github.com/binary42420/Paus</a>
     </string>
 
     <string name="about_contained_software_title">contained Software</string>
@@ -69,7 +66,7 @@
         \n<a href="https://github.com/jeremyh/jBCrypt">JBcrypt</a>
         (<a href="https://github.com/jeremyh/jBCrypt/blob/master/LICENSE">ISC license</a>)
         \n<a href="https://github.com/KeepSafe/TapTargetView">TapTargetView</a>
-        (<a href="https://github.com/KeepSafe/TapTargetView/blob/master/LICENSE">Apache License, Version 2.0</a>
+        (<a href="https://github.com/KeepSafe/TapTargetView/blob/master/LICENSE">Apache License, Version 2.0</a>)
         \n<a href="https://github.com/google/flexbox-layout">Flexbox Layout</a>
         (<a href="https://github.com/google/flexbox-layout/blob/master/LICENSE">Apache License, Version 2.0</a>)
         \n<a href="https://github.com/square/okio">Okio</a>
@@ -90,7 +87,7 @@
     <string name="add_used_time_title_with_category_title">Add usage duration for %s</string>
     <!-- telescreen is a reference to https://en.wikipedia.org/wiki/Nineteen_Eighty-Four -->
     <string name="add_used_time_description">This allows to add used time/ mark time as used
-        in case it was used outside of Paus, e.g. when you want to add telescreen usage
+        in case it was used outside of PAUS, e.g. when you want to add telescreen usage
         to the used time
     </string>
     <string name="add_used_time_confirmation_toast">%1$s used time added for %2$s</string>
@@ -113,8 +110,7 @@
     <string name="add_user_authentication_required_btn">Authenticate</string>
 
     <string name="annoy_info">
-        There was a manipulation of Paus. Due to that, this device is locked now.
-    </string>
+        PAUS has detected attempted App Manipulation. As a result, this device has been locked.  </string>
     <string name="annoy_timer">
         The device can be unlocked in %s.
     </string>
@@ -123,18 +119,17 @@
     <string name="annoy_reason">
         This was manipulated: %s
     </string>
-    <string name="annoy_unlock_dialog_text">After unlocking, you should fix the cause for the blocking.
-        Otherwise, the device will be locked again.
+    <string name="annoy_unlock_dialog_text">After unlocking, you should fix the root cause of the blocking.
+        Otherwise, the block will repeatedly occur until the root cause has been corrected.
     </string>
     <string name="annoy_unlock_dialog_action">Unlock</string>
 
     <string name="authentication_required_overlay_title">Sign in to change settings</string>
-    <string name="authentication_required_overlay_text">The settings will be locked again when you leave Paus</string>
+    <string name="authentication_required_overlay_text">The settings will be locked again when you leave PAUS</string>
 
-    <string name="backdoor_start_btn">Uninstall Paus without password using the support</string>
-    <string name="backdoor_intro_text">This feature is for the case that a confirmed bug locks you out.
-        This is not for forgotten/wrongly noted passwords. Correct passwords that are not accepted are only
-        a case for the feature if that is a confirmed/proven bug.
+    <string name="backdoor_start_btn">Uninstall PAUS without password by contacting support</string>
+    <string name="backdoor_intro_text">This feature is ONLY intended for use in the event a confirmed bug locks you out of your device.
+        This is NOT intended for the simple case of forgotten passwords.
     </string>
     <string name="backdoor_intro_confirm">I understand</string>
     <string name="backdoor_instruction_1">Send the following nonce (with the reason for the unlocking) to the support to get a unlock code:</string>
@@ -143,8 +138,8 @@
 
     <string name="background_logic_whitelisted">in the internal whitelist</string>
     <string name="background_logic_temporarily_allowed">temporarily allowed</string>
-    <string name="background_logic_pauses_disabled">time pauses disabled</string>
-    <string name="background_logic_no_Paus">no paus</string>
+    <string name="background_logic_pauses_disabled">time PAUSes disabled</string>
+    <string name="background_logic_no_Paus">no PAUS</string>
     <string name="background_logic_idle_title">idle</string>
     <string name="background_logic_idle_text">no running App detected</string>
     <string name="background_logic_error">Error</string>
@@ -159,14 +154,14 @@
     <string name="background_logic_temporarily_allowed_text">Tap here or turn screen off to undo</string>
 
     <string name="background_logic_timeout_title">auto logout enabled</string>
-    <string name="background_logic_timeout_text">Paus still runs to do that</string>
+    <string name="background_logic_timeout_text">PAUS still runs to do that</string>
 
     <string name="background_logic_paused_title">Temporarily disabled</string>
     <string name="background_logic_paused_text">No limitations apply</string>
 
-    <string name="background_logic_toast_sync_apps">Paus: Failure while trying to update the app list</string>
-    <string name="background_logic_toast_block_audio">Paus: Music playback stopped (notification filter): %s</string>
-    <string name="background_logic_toast_block_audio_failed">Paus: Failed to stop music playback</string>
+    <string name="background_logic_toast_sync_apps">PAUS: Failure while trying to update the app list</string>
+    <string name="background_logic_toast_block_audio">PAUS: Music playback stopped (notification filter): %s</string>
+    <string name="background_logic_toast_block_audio_failed">PAUS: Failed to stop music playback</string>
 
     <string name="blocked_time_areas">
         Blocked time areas
@@ -197,7 +192,7 @@
         The blocked time areas were changed
     </string>
 
-    <string name="blocked_time_areas_snackbar_child_hint">You can only add pauses without parent; Undoing is not possible</string>
+    <string name="blocked_time_areas_snackbar_child_hint">You can only add PAUSes without parent; Undoing is not possible</string>
 
     <string name="blocked_time_areas_checkbox_detailed">show detailed settings</string>
 
@@ -237,7 +232,7 @@
 
     <string name="category_apps_add_dialog_already_assigned_to">Already assigned to %s</string>
 
-    <string name="category_apps_add_empty_no_known_apps">Paus did not (yet) record any Apps</string>
+    <string name="category_apps_add_empty_no_known_apps">PAUS did not (yet) record any Apps</string>
     <string name="category_apps_add_empty_due_to_filter">There are no matching Apps for the current list filter</string>
 
     <string name="category_notification_filter_title">Notification filter</string>
@@ -250,7 +245,7 @@
         it does not work.
     </string>
     <string name="category_notifications_filter_checkbox">Block all notifications</string>
-    <string name="category_notification_filter_missing_permission">Paus does not have the notification access permission.</string>
+    <string name="category_notification_filter_missing_permission">PAUS does not have the notification access permission.</string>
     <string name="category_notification_filter_delay_intro">It is possible to delay blocking the notifications.
         This only applies when the category itself is not blocked.
         If the category itself is blocked, then the delay is ignored.
@@ -291,9 +286,9 @@
     <string name="category_settings_battery_limit_mobile">While discharging, the battery must have at least %d\%%</string>
     <string name="category_settings_battery_limit_confirm_toast">The battery limit was saved</string>
 
-    <string name="category_paus_time_rules">paus rules</string>
+    <string name="category_paus_time_rules">PAUS rules</string>
     <string name="category_paus_time_rules_about">
-        Here you can configure paus rules.
+        Here you can configure PAUS rules.
         Every rule describes one limit.
         Rules at which multiple days are checked
         limit the total usage duration during a week at all selected days.
@@ -347,10 +342,10 @@
     <string name="child_apps_empty_category">This category is empty</string>
 
     <string name="child_self_limit_add_title">Self limit adding</string>
-    <string name="child_self_limit_add_switch">Allow this user to add pauses for itself</string>
+    <string name="child_self_limit_add_switch">Allow this user to add PAUSes for itself</string>
     <string name="child_self_limit_add_help">This is mainly useful for the self limitation.
-        It allows the user to add some pauses without signing in as parent:
-        \n- adding paus rules
+        It allows the user to add some PAUSes without signing in as parent:
+        \n- adding PAUS rules
         \n- extending blocked time areas
         \n- adding used time
         \n- creating categories
@@ -432,7 +427,7 @@
 
     <string name="diagnose_exf_title">Experimental flags</string>
     <string name="diagnose_exf_slb">Block Apps at system level</string>
-    <string name="diagnose_exf_chs">Paus as launcher</string>
+    <string name="diagnose_exf_chs">PAUS as launcher</string>
     <string name="diagnose_exf_chd">Delay launcher redirection</string>
     <string name="diagnose_exf_nas">Force network time at system level</string>
     <string name="diagnose_exf_mld">Increase the main loop interval</string>
@@ -448,7 +443,7 @@
     <string name="diagnose_bat_level">Level: %d\%%</string>
 
     <string name="diagnose_don_title">Device Owner Organization Name</string>
-    <string name="diagnose_don_no_owner_toast">Paus is NOT set as device owner</string>
+    <string name="diagnose_don_no_owner_toast">PAUS is NOT set as device owner</string>
     <string name="diagnose_don_not_supported_toast">Your system does not support setting the organization name</string>
 
     <string name="diagnose_bg_task_loop_ex">Background task loop exception</string>
@@ -462,7 +457,7 @@
     <string name="error_general">The operation failed</string>
 
     <string name="homescreen_selection_title">Homescreen selection</string>
-    <string name="homescreen_selection_intro">Paus itself is no complete homescreen, so you can chose what should be shown</string>
+    <string name="homescreen_selection_intro">PAUS itself is no complete homescreen, so you can chose what should be shown</string>
     <string name="homescreen_selection_change_info">You can open this menu at any time by repeating tapping the home button</string>
 
 
@@ -500,8 +495,8 @@
     <string name="lock_add_to_category_title">Add to a category</string>
     <string name="lock_add_to_category_text">Use this option if you know this App and you want to allow it</string>
 
-    <string name="lock_goto_main_title">Paus</string>
-    <string name="lock_goto_main_text">Paus to view and/ or change the settings</string>
+    <string name="lock_goto_main_title">PAUS</string>
+    <string name="lock_goto_main_text">PAUS to view and/ or change the settings</string>
 
     <string name="lock_extratime_title">Add extra time</string>
     <string name="lock_extratime_text" translatable="false">@string/category_settings_extra_time_info</string>
@@ -510,9 +505,9 @@
     <string name="lock_disable_temporarily_all_categories">all categories</string>
 
     <string name="lock_grant_permission_title">Grant permission</string>
-    <string name="lock_grant_permission_text">Allow Paus to see the connected network</string>
+    <string name="lock_grant_permission_text">Allow PAUS to see the connected network</string>
 
-    <string name="lock_disable_pauses_temporarily_text">Temporarily disable pauses for the category to allow using this application</string>
+    <string name="lock_disable_pauses_temporarily_text">Temporarily disable PAUSes for the category to allow using this application</string>
 
     <string name="lock_reason_no_category">
         This App was not assigned to any category.
@@ -526,10 +521,10 @@
         This %s is part of a category which is blocked at this time.
     </string>
     <string name="lock_reason_time_over">
-        This %s is part of a category whose paus was reached.
+        This %s is part of a category whose PAUS was reached.
     </string>
     <string name="lock_reason_time_over_etra_time_can_be_used_later">
-        This %s is part of a category whose paus was reached.
+        This %s is part of a category whose PAUS was reached.
         There is still extra time, but the usage limit for the extra time was reached, too.
     </string>
     <string name="lock_reason_battery_limit">
@@ -578,7 +573,7 @@
         will only be granted if a parent confirms it.</string>
     <string name="lock_task_confirm_dialog_from_manage_screen">A parent must sign in first to modify the task.</string>
     <string name="lock_task_review_pending_dialog">It is noted that this task is finished.
-        The only missing part is a parent which confirms this at the start screen of Paus.
+        The only missing part is a parent which confirms this at the start screen of PAUS.
     </string>
     <string name="lock_task_review_pending_hint">waiting for confirmation</string>
 
@@ -613,7 +608,7 @@
         allow or block the category depending on the network.
         A network is identified by an access point. In case of multiple access points/repeaters,
         you have to add all of them one by one.
-        Disabling the time pauses temporarily additionally disables limitations caused by this feature.
+        Disabling the time PAUSes temporarily additionally disables limitations caused by this feature.
     </string>
     <string name="category_networks_empty">You did not add any networks. This category does not depend on specific networks.</string>
     <plurals name="category_networks_not_empty">
@@ -637,13 +632,13 @@
 
     <string name="manage_child_tab_other">Advanced settings</string>
 
-    <string name="manage_child_category_no_time_pauses">no paus</string>
+    <string name="manage_child_category_no_time_pauses">no PAUS</string>
     <string name="manage_child_category_no_time_pauses_short">no limit</string>
 
     <string name="manage_child_categories_intro_title">Categories</string>
     <string name="manage_child_categories_intro_text">
-        Paus manages the pauses using categories.
-        You can select multiple Apps and pauses per category.
+        PAUS manages the PAUSes using categories.
+        You can select multiple Apps and PAUSes per category.
         This allows for example to set one limit for all games.
     </string>
 
@@ -669,12 +664,12 @@
     <string name="manage_child_password_btn_set">Set password (for parents)</string>
     <string name="manage_child_password_btn_change">Change password (for the child itself)</string>
 
-    <string name="manage_child_redirected_toast">Press back to show the overview screen of Paus</string>
+    <string name="manage_child_redirected_toast">Press back to show the overview screen of PAUS</string>
 
     <string name="manage_child_special_mode_wizard_block_title">Block %s temporarily</string>
     <string name="manage_child_special_mode_wizard_block_option" >block temporarily</string>
-    <string name="manage_child_special_mode_wizard_disable_pauses_title">Disable pauses for %s</string>
-    <string name="manage_child_special_mode_wizard_disable_pauses_option">disable pauses temporarily</string>
+    <string name="manage_child_special_mode_wizard_disable_pauses_title">Disable PAUSes for %s</string>
+    <string name="manage_child_special_mode_wizard_disable_pauses_option">disable PAUSes temporarily</string>
 
     <string name="manage_child_confirm_enable_pauses_again_title">Enable limitations</string>
     <string name="manage_child_confirm_enable_pauses_again_text">Would you like to enable the limitations for the category %s?</string>
@@ -737,7 +732,7 @@
 
     <string name="manage_device_reboot_manipulation_title">Consider device reboot a manipulation</string>
     <string name="manage_device_reboot_manipulation_text">
-        If Paus does not start fast enough after a reboot, then you can
+        If PAUS does not start fast enough after a reboot, then you can
         enable considering that as a manipulation.
         This considers EVERY device (re)boot a manipulation.
     </string>
@@ -749,7 +744,7 @@
         this devices manufacturer added some battery optimizations
         which were not disabled and cause trouble. You can find details for
         some common manufacturers at <a href="https://dontkillmyapp.com/">https://dontkillmyapp.com/</a>
-        \nIf that does not solve your issue, get in touch with the support of Paus.
+        \nIf that does not solve your issue, get in touch with the support of PAUS.
     </string>
 
     <string name="manage_device_card_user_title">User</string>
@@ -762,7 +757,7 @@
     <string name="manage_device_is_this_device">This is the device which is in front of you</string>
 
     <string name="manage_device_current_user_title">User of the device</string>
-    <string name="manage_device_current_user_none">No selection - no pauses</string>
+    <string name="manage_device_current_user_none">No selection - no PAUSes</string>
 
     <string name="manage_device_feature_summary_none">No features enabled</string>
 
@@ -771,13 +766,13 @@
     <string name="manage_device_permissions_usagestats_title">Usage stats access</string>
     <string name="manage_device_permissions_usagestats_title_short">Usage stats</string>
     <string name="manage_device_permissions_usagestats_text">
-        Paus uses the permission for the usage stats access.
+        PAUS uses the permission for the usage stats access.
         This is only used to detect the currently used App.
     </string>
 
     <string name="manage_device_permission_notification_access_title">Notification access</string>
     <string name="manage_device_permission_notification_access_text">
-        Paus uses the notification access to block notifications of blocked apps.
+        PAUS uses the notification access to block notifications of blocked apps.
         Notifications and their contents are not saved. Additionally, this is used to
         detect and block background music playback.
     </string>
@@ -785,14 +780,14 @@
     <string name="manage_device_permissions_overlay_title">Draw over other Apps</string>
     <string name="manage_device_permissions_overlay_text">
         Enabling drawing on top of other Apps can improve blocking in some cases.
-        Moreover, this is one way to allow Paus at newer Android versions to open the lockscreen.
+        Moreover, this is one way to allow PAUS at newer Android versions to open the lockscreen.
     </string>
 
     <string name="manage_device_permission_accessibility_title">Accessibility service</string>
     <string name="manage_device_permission_accessibility_text">
         This is used to \"press\" the home button before showing the lock screen.
         This fixes blocking in some cases.
-        Moreover, this is one way to allow Paus at newer Android versions to open the lockscreen.
+        Moreover, this is one way to allow PAUS at newer Android versions to open the lockscreen.
     </string>
 
     <string name="manage_device_permission_device_admin_title">Device admin</string>
@@ -801,21 +796,21 @@
     </string>
     <string name="manage_device_permission_device_admin_text_disabled">
         The device admin permission was not granted.
-        Paus can be stopped at any time without detecting this.
+        PAUS can be stopped at any time without detecting this.
     </string>
     <string name="manage_device_permission_device_admin_text_simple">
         The device admin permission was granted.
-        It is very likely that Paus can detect if it was stopped.
-        However, it is still possible that the child is able to stop Paus.
+        It is very likely that PAUS can detect if it was stopped.
+        However, it is still possible that the child is able to stop PAUS.
     </string>
     <string name="manage_device_permission_device_admin_text_password">
         The device admin permission with the possibility to lock the system after an manipulation was granted.
-        This must be disabled before Paus can be uninstalled or stopped using the system settings.
+        This must be disabled before PAUS can be uninstalled or stopped using the system settings.
         If you have locked out yourself, consult the support.
     </string>
     <string name="manage_device_permission_device_admin_text_owner">
         The device owner permission was granted and prevents disabling and uninstalling Paus.
-        This permission can only be disabled by Paus/ a parent which uninstalls Paus.
+        This permission can only be disabled by PAUS/ a parent which uninstalls PAUS.
     </string>
 
     <string name="manage_device_permission_status_granted">The permission was granted</string>
@@ -835,20 +830,20 @@
         This device does not allow changing this permission graphically. You can only
         enable it from a PC using ADB.
         \n\n%s
-        \n\nYou can disable it by using the uninstall feature of Paus.
+        \n\nYou can disable it by using the uninstall feature of PAUS.
     </string>
 
     <string name="manage_device_downgrade_title">Downgrade</string>
-    <string name="manage_device_downgrade_text">On this device, a newer version of Paus was replaced by an older one</string>
+    <string name="manage_device_downgrade_text">On this device, a newer version of PAUS was replaced by an older one</string>
 
     <string name="manage_device_rename">Rename device</string>
     <string name="manage_device_rename_toast_empty">The name of an device must not be empty.</string>
 
-    <string name="manage_disable_time_pauses_title">Disable time pauses</string>
-    <string name="manage_disable_time_pauses_text">Using this, all time pauses and blocked time areas can be disabled</string>
-    <string name="manage_disable_time_pauses_info_enabled">Time pauses are disabled until %s</string>
+    <string name="manage_disable_time_pauses_title">Disable time PAUSes</string>
+    <string name="manage_disable_time_pauses_text">Using this, all time PAUSes and blocked time areas can be disabled</string>
+    <string name="manage_disable_time_pauses_info_enabled">Time PAUSes are disabled until %s</string>
 
-    <string name="manage_disable_time_pauses_btn_enable">Enable time pauses again</string>
+    <string name="manage_disable_time_pauses_btn_enable">Enable time PAUSes again</string>
     <string name="manage_disable_time_pauses_btn_10_min">for 10 minutes</string>
     <string name="manage_disable_time_pauses_btn_30_min">for 30 minutes</string>
     <string name="manage_disable_time_pauses_btn_1_hour">for 1 hour</string>
@@ -860,7 +855,7 @@
     <string name="manage_disable_time_pauses_btn_no_end_time">no scheduled end time</string>
     <string name="manage_disable_time_pauses_btn_until">until %s</string>
 
-    <string name="manage_disable_time_pauses_dialog_until">Disable time pauses until ...</string>
+    <string name="manage_disable_time_pauses_dialog_until">Disable time PAUSes until ...</string>
     <string name="manage_disable_time_pauses_toast_time_in_past">The selected time is in the past</string>
     <string name="manage_disable_time_pauses_toast_time_not_increased_but_child_mode">The blocked time may be increased but not decreased without a parent who signs in</string>
 
@@ -894,15 +889,15 @@
 
     <string name="manage_user_key_title">User key</string>
     <string name="manage_user_key_info">A key is a barcode which allows the user
-        to sign in by scanning it. This code must be generated by Paus.
-        This requires Paus at another device configured as key generator.
+        to sign in by scanning it. This code must be generated by PAUS.
+        This requires PAUS at another device configured as key generator.
     </string>
     <string name="manage_user_key_not_enrolled">There is no key for this user</string>
     <string name="manage_user_key_is_enrolled">This user has got the key %s</string>
     <string name="manage_user_key_add">Add key</string>
     <string name="manage_user_key_remove">remove key</string>
     <string name="manage_user_key_added">The key was added</string>
-    <string name="manage_user_key_invalid">This was no valid Paus key</string>
+    <string name="manage_user_key_invalid">This was no valid PAUS key</string>
     <string name="manage_user_key_other_user">This key is already linked to an other user</string>
     <string name="manage_user_key_wrong_user">Only the user itself can manage his keys</string>
 
@@ -910,9 +905,9 @@
 
     <string name="must_read_child_manipulation">
         The help contains details about the following two topics:
-        \n\n1. Paus is executed — like all other Apps — within a sandbox. Due to this, Paus
+        \n\n1. PAUS is executed — like all other Apps — within a sandbox. Due to this, PAUS
         itself can not prevent that the child disables or removes it.
-        \n\n2. Paus is made for the original Android (AOSP) and similar environments.
+        \n\n2. PAUS is made for the original Android (AOSP) and similar environments.
         This are e.g. the preinstalled OS at Google Pixel phones, LineageOS and GrapheneOS.
         There can be issues at other systems, for example due to so called power saving features.
         In most cases, the issues can be fixed by changing the system settings.
@@ -922,7 +917,7 @@
         use parent and child categories to \"add\" an App to multiple categories
     </string>
     <string name="must_read_blocked_time_areas_obsolete">
-        The blocked time areas are old. For most cases, using paus rules with 0 minutes duration
+        The blocked time areas are old. For most cases, using PAUS rules with 0 minutes duration
         for a part of a day is a better solution.
     </string>
 
@@ -930,46 +925,48 @@
     <string name="notification_channel_app_status_description">Shows amongst other things the remaining time for the currently used App</string>
 
     <string name="notification_channel_blocked_notification_title">blocked notifications</string>
-    <string name="notification_channel_blocked_notification_text">Shows when a notification was blocked by Paus</string>
+    <string name="notification_channel_blocked_notification_text">Shows when a notification was blocked by PAUS</string>
 
     <string name="notification_channel_time_warning_title">Time warning</string>
-    <string name="notification_channel_time_warning_text">Notification for childs if there is not much time remaining</string>
+    <string name="notification_channel_time_warning_text">Notification for child if there is not much time remaining</string>
     <string name="time_warning_custom_add">Add time warning</string>
 
     <string name="notification_channel_apps_temporarily_allowed_title">Temporarily allowed Apps</string>
     <string name="notification_channel_apps_temporarily_allowed_text">Shows that some Apps were temporarily allowed and provides the option to revoke that</string>
 
-    <string name="notification_filter_not_blocked_title">Paus has blocked a notification</string>
-    <string name="notification_filter_blocking_failed_title">Paus could not block a notification</string>
+    <string name="notification_filter_not_blocked_title">PAUS has blocked a notification</string>
+    <string name="notification_filter_blocking_failed_title">PAUS could not block a notification. Parent has been Alerted</string>
 
-    <string name="obsolete_message">You are using Paus at a obsolete Android version.
-        Although this can work, it is not recommend.
+    <string name="obsolete_message">You are using PAUS within an obsolete Android version.
+        Although this might work, it is not recommended or supported by PAUS. Please do not attempt to contact us. 
+       AKA (Your device is old AF. Get a new phone you cheap fk. Or at 
+       least don't punish our support if your crusty shit doesnt work. Such is life.)
     </string>
 
     <string name="overview_header_devices">Devices</string>
     <string name="overview_header_users">Users</string>
 
-    <string name="overview_intro_title">Welcome to Paus</string>
+    <string name="overview_intro_title">Welcome to PAUS</string>
     <string name="overview_intro_text">
-        This is the overview. Here you can see devices and users (maybe you have to scroll first).
-        \n\nUnder devices, you can see the status of a device and assign a user.
-        \n\nUnder users, you can configure the allowed Apps and time pauses.
+        This is the main Window. Here you can see devices and users (You May need to scroll down)
+        \n\nUnder "devices", you can see the status of a device and assign a user to that device.
+        \n\nUnder "users", you can configure the allowed Apps and time limits per each user.
     </string>
 
-    <string name="overview_device_item_manipulation">There was a manipulation on this device</string>
+    <string name="overview_device_item_manipulation">An App manipulation was detected</string>
     <string name="overview_device_item_missing_permission">A required permission was not granted on this device</string>
 
     <string name="overview_user_item_temporarily_blocked">temporarily blocked</string>
     <string name="overview_user_item_temporarily_blocked_until">temporarily blocked until %s</string>
-    <string name="overview_user_item_temporarily_disabled">Time pauses temporarily disabled</string>
-    <string name="overview_user_item_temporarily_disabled_until">Time pauses temporarily disabled until %s</string>
+    <string name="overview_user_item_temporarily_disabled">PAUSes temporarily disabled</string>
+    <string name="overview_user_item_temporarily_disabled_until">PAUSes temporarily disabled until %s</string>
     <string name="overview_user_item_role_child">is restricted</string>
     <string name="overview_user_item_role_parent">can change settings</string>
 
     <string name="parent_limit_login_title">Limit login category</string>
     <string name="parent_limit_login_help">Here you can select a category. As soon as Apps of this
         category are blocked, you can not sign in with your parent user. This
-        can be used to prevent you from disabling pauses which you set for yourself while they are active.
+        can be used to prevent you from disabling PAUSes which you set for yourself while they are active.
     </string>
     <string name="parent_limit_login_status_disabled">You can sign in at any time</string>
     <string name="parent_limit_login_status_enabled">You can not sign in when %1$s is blocked for %2$s</string>
@@ -994,7 +991,7 @@
         adding it at the parent user entry at the other device.
         This does not allow a remote control.
         In case you want to restrict this device,
-        reset/reinstall Paus.
+        reset/reinstall PAUS.
     </string>
 
     <string name="password_validator_too_short">The password must have at least <xliff:g example="5" id="number of chars">%d</xliff:g> characters</string>
@@ -1025,7 +1022,7 @@
     <string name="set_password_view_checkbox_no_password">Disable password protection</string>
 
     <string name="setup_device_permissions_text">
-        Paus needs some permissions to work.
+        PAUS needs some permissions to work.
         Only the usage stats access permission is absolutely necessary.
         Starting Android 10, the permission \"Draw over other Apps\" or \"Accessibility service\"
         is required to open the lockscreen.
@@ -1051,22 +1048,22 @@
 
     <string name="setup_select_mode_child_title">(limited) device of a child</string>
     <string name="setup_select_mode_child_text">
-        Paus will be used to limit this device.
+        PAUS will be used to limit this device.
     </string>
 
     <string name="setup_select_mode_parent_title">(key) device of a parent</string>
     <string name="setup_select_mode_parent_text">
-        Paus will not limit this device. This device will be one possible key to
-        unlock the settings of Paus at an other device (there is always
+        PAUS will not limit this device. This device will be one possible key to
+        unlock the settings of PAUS at an other device (there is always
         a password to unlock the settings).
     </string>
     <string name="setup_select_mode_parent_progress">Creating key</string>
 
-    <string name="setup_select_mode_uninstall_title">uninstall Paus</string>
+    <string name="setup_select_mode_uninstall_title">uninstall PAUS</string>
     <string name="setup_select_mode_uninstall_text">
         Not a setup option.
-        Paus revokes all permissions which prevent an uninstallation (if any)
-        and starts the deletion of itself.
+        PAUS revokes all permissions which prevent an uninstallation (if any)
+        and destroys all traces of itself.
     </string>
 
     <string name="setup_category_allowed">Allowed Apps</string>
@@ -1074,10 +1071,10 @@
     <string name="setup_username_child">Child 1</string>
     <string name="setup_username_parent">Parent 1</string>
 
-    <string name="setup_terms_title">Welcome to Paus</string>
+    <string name="setup_terms_title">Welcome to PAUS</string>
     <string name="about_terms_title">Legal</string>
     <string name="terms_text" translatable="false">
-        Paus Copyright &#169; 2023 Ryley Holmes and the Paus contributors
+        PAUS Copyright &#169; 2023 Ryley Holmes and the PAUS contributors
 
         \n\nThis program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -1095,17 +1092,17 @@
 
     <string name="uninstall_reset_title">Reset App</string>
     <string name="uninstall_reset_text">
-        All settings of Paus are deleted from this device.
-        After this, you can reconfigure Paus or uninstall it.
+        All settings of PAUS are deleted from this device.
+        After this, you can reconfigure PAUS or uninstall it.
     </string>
-    <string name="uninstall_reset_check_conirm">I am sure that I want to remove Paus from this device</string>
+    <string name="uninstall_reset_check_conirm">I am sure that I want to remove PAUS from this device</string>
 
     <string name="usage_history_title">Usage history</string>
     <string name="usage_history_empty_title">There is no usage history</string>
     <string name="usage_history_empty_text">
         The usage is only saved
-        when there are time pauses and
-        the limited Apps are used
+        when there are PAUS's and
+        the PAUS'd Apps are used
     </string>
     <string name="usage_history_time_area">from %s until %s</string>
     <string name="usage_history_item_session_duration_limit">Session duration limit of %s with %s break</string>
@@ -1113,7 +1110,7 @@
     <string name="usage_history_filter_all_categories">All Categories</string>
 
     <string name="usage_stats_permission_required_and_missing_title">Usage stats access is required</string>
-    <string name="usage_stats_permission_required_and_missing_text">Paus needs this permission to work correctly. Select \"permissions\" below to enable it.</string>
+    <string name="usage_stats_permission_required_and_missing_text">PAUS needs this permission to work correctly. Select \"permissions\" below to enable it.</string>
     <string name="activity_launch_permission_required_and_missing_title">Draw over other Apps or Accessibility service is required</string>
 
     <string name="util_join_and">and</string>
@@ -1163,9 +1160,9 @@
 
     <string name="wiazrd_next">Next</string>
 
-    <string name="app_name" translatable="false">Paus</string>
+    <string name="app_name" translatable="false">PAUS</string>
 
-    <string name="admin_description_direct">This allows Paus to prevent it from being disabled.</string>
+    <string name="admin_description_direct">This allows PAUS to prevent it from being disabled.</string>
 
     <string name="admin_disable_warning">Do you want to disable the device admin?</string>
 
@@ -1208,7 +1205,7 @@
     <string name="biometric_manage_switch_text" translatable="false">@string/biometric_title_enable</string>
     <string name="biometric_manage_info">Allows a (parent) user to login using the configured biometric credentials of this device, e.g. scanning a fingerprint instead of typing the password.</string>
     <string name="biometric_manage_enable_dialog_title" translatable="false">@string/biometric_title_enable</string>
-    <string name="biometric_manage_enable_dialog_text">This enables ALL biometric credentials enrolled on this device to be accepted. Everyone who has biometric credentials registered could login as %s, even child account users or persons not managed by Paus.</string>
+    <string name="biometric_manage_enable_dialog_text">This enables ALL biometric credentials enrolled on this device to be accepted. Everyone who has biometric credentials registered could login as %s, even child account users or persons not managed by PAUS.</string>
     <string name="biometric_manage_disable_password_required_dialog_title" translatable="false">@string/biometric_title_disable</string>
     <string name="biometric_manage_disable_password_required_dialog_text">To avoid locking you out of your account please login using your password to allow disabling biometric authentication for this account.</string>
     <string name="biometric_manage_not_owner_dialog_title" translatable="false">@string/biometric_title</string>
@@ -1222,9 +1219,9 @@
     <string name="biometric_manage_error_hw_not_available">The biometric hardware is somehow not available at the moment.</string>
 
     <string name="notify_permission_title">Notifications</string>
-    <string name="notify_permission_text">Apps including Paus need your permission to
+    <string name="notify_permission_text">Apps including PAUS need your permission to
         show notifications at some Android versions.
-        Paus uses e.g. to show the remaining time and to
+        PAUS uses e.g. to show the remaining time and to
         show a message when a notification was blocked.
         It is highly recommend to allow showing notifications.
     </string>
