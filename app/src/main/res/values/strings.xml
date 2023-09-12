@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
     PAUS Copyright (C) 2023 Ryley Holmes
 
     This program is free software: you can redistribute it and/or modify
@@ -15,6 +14,8 @@
     along with this program. If not, see <https://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
     <string name="generic_ok">OK</string>
     <string name="generic_cancel">Cancel</string>
     <string name="generic_help">Help</string>
@@ -38,7 +39,7 @@
 
     <string name="about_version">Version %s</string>
 
-    <string name="about_contact_title">Help ressources</string>
+    <string name="about_contact_title">Help resources</string>
     <string name="about_contact_mail">https://paus.io/support
     </string>
 
@@ -111,14 +112,10 @@
 
     <string name="annoy_info">
         PAUS has detected attempted App Manipulation. As a result, this device has been locked.  </string>
-    <string name="annoy_timer">
-        The device can be unlocked in %s.
-    </string>
+    <string name="annoy_timer">The device can be unlocked in %s.</string>
     <string name="annoy_unlock_temp_button">Unlock for a moment</string>
     <string name="annoy_unlock_parent_button">Unlock a bit longer</string>
-    <string name="annoy_reason">
-        This was manipulated: %s
-    </string>
+    <string name="annoy_reason">This was manipulated: %s</string>
     <string name="annoy_unlock_dialog_text">After unlocking, you should fix the root cause of the blocking.
         Otherwise, the block will repeatedly occur until the root cause has been corrected.
     </string>
@@ -135,7 +132,6 @@
     <string name="backdoor_instruction_1">Send the following nonce (with the reason for the unlocking) to the support to get a unlock code:</string>
     <string name="backdoor_instruction_2">Enter the received code:</string>
     <string name="backdoor_toast_invalid_code">This code is invalid</string>
-
     <string name="background_logic_whitelisted">in the internal whitelist</string>
     <string name="background_logic_temporarily_allowed">temporarily allowed</string>
     <string name="background_logic_pauses_disabled">time PAUSes disabled</string>
@@ -183,9 +179,7 @@
     </string>
 
     <string name="blocked_time_areas_help_modify">
-        To change one area, tap on the start time. It will become blue.
-        Then select the end time.
-        Now, the area colors will be inverted.
+        To change one area, tap on the start time. It will become blue. Then select the end time. Now, the area colors will be inverted.
     </string>
 
     <string name="blocked_time_areas_snackbar_modified">
@@ -304,7 +298,7 @@
     <string name="category_paus_time_rules_apply_to_whole_day">Apply to whole day</string>
     <string name="category_paus_time_rules_apply_to_part_day_1">Apply from</string>
     <string name="category_paus_time_rules_apply_to_part_day_2">to</string>
-    <string name="category_paus_time_rules_apply_to_part_day_3"></string>
+    <string name="category_paus_time_rules_apply_to_part_day_3">to</string>
     <string name="category_paus_time_rules_invalid_range">The start time must be before the end time</string>
     <string name="category_paus_time_rules_enable_session_limit">Limit session duration</string>
     <string name="category_paus_time_rules_session_limit_duration">Maximum session duration</string>
@@ -412,7 +406,7 @@
     <string name="diagnose_clock_timezone">Time zone: %s</string>
     <string name="diagnose_clock_time_of_day">Time of day: %s</string>
     <string name="diagnose_clock_date">Date: %s</string>
-    <string name="diagnose_clock_day_of_week">Day of week (0 = monday, ...): %d</string>
+    <string name="diagnose_clock_day_of_week">Day of week (0 = monday, . . .): %d</string>
     <string name="diagnose_clock_day_of_epoch">Day of epoch: %d</string>
     <string name="diagnose_clock_minute_of_week">Minute of week: %d</string>
     <string name="diagnose_fga_txt_export_btn">Export text OS usage stats</string>
@@ -667,7 +661,7 @@
     <string name="manage_child_redirected_toast">Press back to show the overview screen of PAUS</string>
 
     <string name="manage_child_special_mode_wizard_block_title">Block %s temporarily</string>
-    <string name="manage_child_special_mode_wizard_block_option" >block temporarily</string>
+    <string name="manage_child_special_mode_wizard_block_option">block temporarily</string>
     <string name="manage_child_special_mode_wizard_disable_pauses_title">Disable PAUSes for %s</string>
     <string name="manage_child_special_mode_wizard_disable_pauses_option">disable PAUSes temporarily</string>
 
@@ -717,7 +711,7 @@
     <string name="manage_device_manipulation_type_past">In the past:</string>
     <string name="manage_device_manipulation_type_current">Currently active:</string>
     <string name="manage_device_manipulation_device_admin_disabled">device admin disabled</string>
-    <string name="manage_device_manipulation_device_admin_disable_attempt">disabling devcie admin was attempted</string>
+    <string name="manage_device_manipulation_device_admin_disable_attempt">disabling device admin was attempted</string>
     <string name="manage_device_manipulation_usage_stats_access">usage stats access</string>
     <string name="manage_device_manipulation_notification_access">notification access</string>
     <string name="manage_device_manipulation_overlay_permission">draw over other Apps permission</string>
@@ -855,7 +849,7 @@
     <string name="manage_disable_time_pauses_btn_no_end_time">no scheduled end time</string>
     <string name="manage_disable_time_pauses_btn_until">until %s</string>
 
-    <string name="manage_disable_time_pauses_dialog_until">Disable time PAUSes until ...</string>
+    <string name="manage_disable_time_pauses_dialog_until">Disable time PAUSes until . . .</string>
     <string name="manage_disable_time_pauses_toast_time_in_past">The selected time is in the past</string>
     <string name="manage_disable_time_pauses_toast_time_not_increased_but_child_mode">The blocked time may be increased but not decreased without a parent who signs in</string>
 
@@ -907,7 +901,7 @@
         The help contains details about the following two topics:
         \n\n1. PAUS is executed — like all other Apps — within a sandbox. Due to this, PAUS
         itself can not prevent that the child disables or removes it.
-        \n\n2. PAUS is made for the original Android (AOSP) and similar environments.
+        \n\n2. PAUS is made for the original Android OS and similar environments.
         This are e.g. the preinstalled OS at Google Pixel phones, LineageOS and GrapheneOS.
         There can be issues at other systems, for example due to so called power saving features.
         In most cases, the issues can be fixed by changing the system settings.
@@ -940,7 +934,7 @@
     <string name="obsolete_message">You are using PAUS within an obsolete Android version.
         Although this might work, it is not recommended or supported by PAUS. Please do not attempt to contact us. 
        AKA (Your device is old AF. Get a new phone you cheap fk. Or at 
-       least don't punish our support if your crusty shit doesnt work. Such is life.)
+       least don't punish our support if your crusty shit doesn't work. Such is life.)
     </string>
 
     <string name="overview_header_devices">Devices</string>
@@ -977,21 +971,19 @@
     <string name="parent_limit_login_error_user_itself">You must be signed in as the user
         to select a category. Other users can only disable this feature.
     </string>
-    <string name="parent_limit_login_pre_block_disabled">Preblocking is disabled</string>
+    <string name="parent_limit_login_pre_block_disabled">Pre-blocking is disabled</string>
     <string name="parent_limit_login_pre_block_enabled">Logging in will be blocked %s before the category is blocked</string>
-    <string name="parent_limit_login_pre_block_button">Set preblock duration</string>
-    <string name="parent_limit_login_pre_block_dialog_title">Configure preblocking</string>
+    <string name="parent_limit_login_pre_block_button">Set pre-block duration</string>
+    <string name="parent_limit_login_pre_block_dialog_title">Configure pre-blocking</string>
     <string name="parent_limit_login_pre_block_dialog_other_user">Other users can only set the value to zero</string>
 
     <string name="parent_mode_key_title">Key</string>
     <string name="parent_mode_key_id">Key ID: %s</string>
     <string name="parent_mode_help_text">
         You have chosen the parent key mode.
-        This allows you to use your device as parent key by
-        adding it at the parent user entry at the other device.
+        This allows you to use your device as parent key by adding it at the parent user entry at the other device.
         This does not allow a remote control.
-        In case you want to restrict this device,
-        reset/reinstall PAUS.
+        In case you want to restrict this device, reset/reinstall PAUS.
     </string>
 
     <string name="password_validator_too_short">The password must have at least <xliff:g example="5" id="number of chars">%d</xliff:g> characters</string>
@@ -1101,8 +1093,8 @@
     <string name="usage_history_empty_title">There is no usage history</string>
     <string name="usage_history_empty_text">
         The usage is only saved
-        when there are PAUS's and
-        the PAUS'd Apps are used
+        when there are PAUSed and
+        the Paused Apps are used
     </string>
     <string name="usage_history_time_area">from %s until %s</string>
     <string name="usage_history_item_session_duration_limit">Session duration limit of %s with %s break</string>
@@ -1158,7 +1150,7 @@
     <string name="widget_config_error_filter_empty">You must select at least one category</string>
     <string name="widget_config_other_translucent">Enable translucency</string>
 
-    <string name="wiazrd_next">Next</string>
+    <string name="wiazrd_next" translatable="false">Next</string>
 
     <string name="app_name" translatable="false">PAUS</string>
 

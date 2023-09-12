@@ -63,6 +63,7 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
 
@@ -74,6 +75,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    namespace 'io.paus.android'
 }
 
 dependencies {

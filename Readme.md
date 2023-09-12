@@ -18,4 +18,4 @@ Open it with Android Studio and press the Run button.
 
 ### Enabling the device owner permission
 
-```adb shell dpm set-device-owner io.paus.android.open/io.paus.android.integration.platform.android.AdminReceiver```
+```adb shell dpm set-device-owner io.paus.android/io.paus.android.integration.platform.android.AdminReceiver```
