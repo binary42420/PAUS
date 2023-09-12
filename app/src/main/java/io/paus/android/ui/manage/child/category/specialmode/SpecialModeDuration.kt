@@ -72,7 +72,6 @@ sealed class SpecialModeOption {
     }
 }
 
-// FIXME: this is not used at the disable paus view yet ...
 object SpecialModeDuration {
     val items = listOf(
             SpecialModeOption.Duration.FixedDuration(R.string.manage_disable_time_pauses_btn_10_min, 1000 * 60 * 10),
